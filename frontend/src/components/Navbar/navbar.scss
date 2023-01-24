@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav_links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    #link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .nav_buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .fonts :first-child {
+      margin-right: 10px;
+    }
+    .fonts {
+      i {
+        color: gray;
+      }
+      sup {
+        width: 16px;
+        height: 16px;
+        padding: 3px;
+        // display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: white;
+        background-color: blue;
+        font-size: 10px;
+      }
+    }
+    .nav_btn button {
+      padding: 10px 30px;
+      border: 1px solid gray;
+      border-radius: 20px;
+      background-color: transparent;
+    }
+    & :hover {
+      background-color: blue;
+      border-radius: 20px;
+      color: white;
+    }
+  }
+}

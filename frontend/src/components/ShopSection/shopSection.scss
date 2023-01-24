@@ -1,0 +1,32 @@
+.shop_section {
+  margin-top: 30px;
+  height: 40vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/013/257/103/non_2x/abstract-background-illustration-atmosphere-blue-background-vector.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+
+  .shop_titles {
+    padding: 50px;
+    text-align: center;
+    #percentage {
+      font-size: 50px;
+      text-align: center;
+    }
+    #sale_category {
+      font-size: 25px;
+    }
+    #shop_text {
+      color: rgb(66, 59, 59);
+    }
+    #shop_button {
+      padding: 15px 40px;
+      border-radius: 20px;
+      border: none;
+      background-color: blue;
+      color: white;
+      &:hover{
+          background-color: rgb(88, 88, 209);
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.hero-section {
+  height: 600px;
+  background-image: url(https://1001freedownloads.s3.amazonaws.com/vector/thumb/336705/BlueBackgroundVector.jpg);
+  background-repeat: no-repeat;
+  background-color: rgb(241, 239, 239);
+  .hero {
+    // display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .hero_left {
+      position: relative;
+      #hero_img {
+        position: absolute;
+        top: 100px;
+      }
+    }
+    .hero_info {
+      position: relative;
+      #shop {
+        position: absolute;
+        left: 40%;
+        padding: 200px 0px 0px 0px;
+        font-size: 19px;
+        font-weight: 500;
+      }
+      #shop_title {
+        position: absolute;
+        left: 40%;
+        padding: 230px 0px 0px 0px;
+        font-size: 35px;
+      }
+      #shop_text {
+        position: absolute;
+        width: 400px;
+        left: 40%;
+        top: 40%;
+        padding: 350px 0px 0px 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+.form {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  button {
+    padding: 10px 0px;
+    background-color: rgb(60, 60, 241);
+    color: white;
+    border: none;
+  }
+}
